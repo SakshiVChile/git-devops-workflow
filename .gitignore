@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Secrets and environment files
+.env
+*.pem
+
+# Logs and temp files
+*.log
+tmp/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# OS and editor files
+.DS_Store
+.vscode/
